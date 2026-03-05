@@ -1,0 +1,14 @@
+speed_zone_limiter:
+  ros__parameters:
+    zone:
+      name: loading_bay
+      max_speed: 0.10          # m/s — robot is capped to this inside the polygon
+      polygon:                 # map-frame coordinates (metres), flat [x0,y0,x1,y1,...]
+        - 1.2
+        - 0.5
+        - 3.4
+        - 0.5
+        - 3.4
+        - 2.1
+        - 1.2
+        - 2.1
